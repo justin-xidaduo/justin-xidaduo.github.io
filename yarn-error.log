@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/zhaolibin/.nvm/versions/node/v18.15.0/bin/node /Users/zhaolibin/.nvm/versions/node/v18.15.0/lib/node_modules/yarn/bin/yarn.js init
+
+PATH: 
+  /Users/zhaolibin/.nvm/versions/node/v18.15.0/bin:/Users/zhaolibin/.gem/ruby/3.1.3/bin:/Users/zhaolibin/.rubies/ruby-3.1.3/lib/ruby/gems/3.1.0/bin:/Users/zhaolibin/.rubies/ruby-3.1.3/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/opt/mysql-client/bin:/Users/zhaolibin/bin:/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.15.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/zhaolibin/.nvm/versions/node/v18.15.0/lib/node_modules/yarn/lib/cli.js:137150:13)
+      at Interface.emit (node:events:513:28)
+      at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1131:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:270:20)
+      at ReadStream.emit (node:events:513:28)
+      at emitKeys (node:internal/readline/utils:357:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

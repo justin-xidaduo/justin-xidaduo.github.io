@@ -1,0 +1,15 @@
+{
+  "name": "justin-xidaduo.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:justin-xidaduo/justin-xidaduo.github.io.git",
+  "author": "justin.xidaduo@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.9"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
